@@ -20,13 +20,13 @@ public class AddressableGrouping : EditorWindow
 
         EditorGUILayout.HelpBox("새로 추가 할 그룹들이 따라갈 설정 값을 넣어주세요",MessageType.Info,true);
 
-        EditorGUILayout.ObjectField("SettingGroup", settingGroup,typeof(AddressableAssetGroup),true);
+        settingGroup = (AddressableAssetGroup)EditorGUILayout.ObjectField("SettingGroup", settingGroup,typeof(AddressableAssetGroup),true);
 
         GUILayout.Space(10);
 
         EditorGUILayout.HelpBox("새로 추가 할 항목들이 있는 그룹을 넣어주세요", MessageType.Info, true);
 
-        EditorGUILayout.ObjectField("AddGroup", AddGroup, typeof(AddressableAssetGroup), true);
+        AddGroup = (AddressableAssetGroup)EditorGUILayout.ObjectField("AddGroup", AddGroup, typeof(AddressableAssetGroup), true);
 
         GUILayout.Space(10);
 
