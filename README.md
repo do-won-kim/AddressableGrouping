@@ -26,5 +26,8 @@ CheckAddressable : 정의되지 않은 확장자 명을 찾습니다.
 확장자명의 경우 하드 코딩이 되어 있기 때문에 없는 확장자가 발생할 수 있습니다.  
 툴 동작 전에 CheckAddressable을 동작해주시면 코드에 없는 확장자명이 있을 경우 Log에 나오니  
 확인 하고 추가 해주시면 됩니다.  
+  
+![image05](https://user-images.githubusercontent.com/73415970/125286940-4f7a3100-e357-11eb-9fa9-05296af284ed.PNG)  
+해당 2항목은 무시  
 
 
